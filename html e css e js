@@ -1,0 +1,407 @@
+html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<header>
+  
+    <h1>Belas & Doces</h1>
+    <a href="#" class="logo"><img src="" alt=""</a>
+
+    <ul class="navmenu">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Especial de Natal</a></li>
+        <li><a href="#">Contato</a></li> 
+    </ul>
+
+    <div class="nav-icon">
+        <a href="#"><i class='bx bx-search'></i></a>
+        <a href="#"><i class='bx bxs-user'></i></a>
+        <a href="#"><i class='bx bx-cart'></i></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+  
+  </div>
+  <div class="hero-section">
+    <h1>Sobre Os Criadores</h1>
+  </div>
+<footer>
+    <p>&copy; 2023 Belas & Doces. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <div class="gallery">
+        <div class="image" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+          <img src="../uniuninasau/Lucas uninassauuuu.JPEG" alt="Imagem 1">
+          <div class="info">
+            <h3>Lucas Carneiro</h3>
+            <p>Nome: Lucas Oliveira Carneiro <br>
+            Idade: 19 <br>
+            Curso: Ciência a computação <br>
+            Faculdade: Uninassau <br>
+            Hobby: desenhar, pintae e estudar.
+            </p>
+          </div>
+        </div>
+
+      
+        <div class="image" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+          <img src="../uniuninasau/Bela uninassauuuu (2).jpg" alt="Imagem 2">
+          <div class="info">
+            <h3>Isabela Chaves</h3>
+            <p>Nome: Maria Isabela Chaves de Lima <br>
+            Idade: 19 <br>
+            Curso: Ciência da computação <br>
+            Faculdade: Uninassau <br>
+            Hobby: Fazer cerâmicas e pintar.
+            </p>
+          </div>
+        </div>
+         <div class="image" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+            <img src="../uniuninasau/Monirafaela uninassauuu.JPEG" alt="Imagem 3">
+            <div class="info">
+              <h3>Monique Rafaela</h3>
+              <p>Nome: Monique Rafaela Carvalho Lopes <br>
+                Idade: 18 <br>
+                Curso: Ciência da computação <br>
+                Faculdade: Uninassau <br>
+                Hobby: Ouvir música, tocar guitarra e editar vídeos.
+            </p>
+            </div>
+          </div>
+          <div class="image" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+            <img src="../uniuninasau/Eu uninassauuuu.JPEG" alt="Imagem 4">
+            <div class="info">
+              <h3>Suellen Raquel</h3>
+              <p>Nome: Suellen Raquel Ramos de França<br>
+                Idade: 18 <br>
+                Curso: Ciência da computação <br>
+                Faculdade: Uninassau <br>
+                Hobby: Desenhar, cantar, cozinhar e jogar.
+              </p>
+            </div>
+          </div>
+    
+      </div> 
+      <script src="script.js"></script>   
+</body>
+</html>
+
+css
+
+body{
+    font-family:'Questrial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f54c8d;
+}
+header {
+    font-family: 'Marcellus', serif;
+    background-color: #9c0446;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Questrial', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FAF9F6;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0; right: 0;
+    background: #faf9f6be;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+}
+
+.navmenu a{
+    color: #cf0d17;
+    font-size: 16px;
+    font-style: bolder;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: #000;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;    
+}
+
+.nav-icon i{
+    margin-right: 20px;
+    color: #cf0d17;
+    font-size: 23px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #058440;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: #cf0d17;
+    z-index: 10001;
+    cursor: pointer;
+}
+body{
+    font-family:'Questrial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f54c8d;
+}
+header {
+    font-family: 'Marcellus', serif;
+    background-color: #9c0446;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Questrial', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FAF9F6;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0; right: 0;
+    background: #faf9f6be;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+
+.navmenu{
+    display: flex;
+}
+
+.navmenu a{
+    color: #cf0d17;
+    font-size: 16px;
+    font-style: bolder;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: #000;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;    
+}
+
+.nav-icon i{
+    margin-right: 20px;
+    color: #cf0d17;
+    font-size: 23px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #058440;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: #cf0d17;
+    z-index: 10001;
+    cursor: pointer;
+}
+  nav {
+    background-color: #e4ceb4dc;
+    padding: 1em;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 18px;
+  }
+ 
+  .hero-section {
+    background-image: url('../uniuninasau/vista-de-deliciosas-e-doces-sobremesas-de-cupcake-com-glace_23-2150679644.avif');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 4em;
+  }
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .hero-section p {
+    font-size: 1.2em;
+  }
+ 
+  footer {
+    background-color: #9c0446;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    background: linear-gradient(#e4ceb4dc);
+  }
+  
+  .image {
+    position:static;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .image:hover {
+    transform: scale(1.2) rotate(3deg);
+  }
+  
+  .image:hover .info {
+    opacity: 1;
+  }
+  .image:hover {
+    border: 2px solid #9c0446;
+  }
+  .title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+  }
+  
+  .gallery {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .social-icons {
+    display:flow-root;
+    justify-content:center;
+    margin-top: 0px;
+  }
+  
+  .social-icons a {
+    margin: 0 90px;
+  }
+
+java script
+
+function zoomIn(element) {
+    element.style.transform = 'scale(1.2)';
+  }
+  
+  function zoomOut(element) {
+    element.style.transform = 'scale(1)';
+  }
+
